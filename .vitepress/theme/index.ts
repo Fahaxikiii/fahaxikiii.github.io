@@ -1,3 +1,3 @@
-import ThemeAsync from "./main";  
+import ThemeAsync from 'vitepress-theme-async';
 
 export default ThemeAsync;

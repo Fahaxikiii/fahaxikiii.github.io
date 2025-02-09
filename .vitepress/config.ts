@@ -1,4 +1,4 @@
-import { defineConfig } from "./theme/config"; 
+import { defineConfig } from 'vitepress-theme-async/config';
 
 export default defineConfig({
 	srcDir: './',
@@ -15,10 +15,10 @@ export default defineConfig({
 				desc: 'VitePress is a Static Site Generator (SSG) designed for building fast, content-centric websites',
 			},
 			{
-				name: '万里',
-				url: 'https://blog.spoli.cn/',
+				name: '白云苍狗',
+				url: 'https://www.imalun.com/',
 				image: 'https://www.imalun.com/images/avatar.jpg',
-				desc: '无人识我来时路，就像那孤山起了雾',
+				desc: '醒，亦在人间；梦，亦在人间',
 			},
 		],
 		rightside: {
