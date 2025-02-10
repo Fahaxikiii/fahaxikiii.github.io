@@ -1,19 +1,16 @@
 ---
 title: Docker安装NapCat
-date: 2024-11-11
+date: 2024-11-11 15:08:29
+singleColumn: true
+cover: https://www.logosc.cn/uploads/resources/2018/11/29/1543459457_thumb.jpg
+banner:
+  type: img
+  bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg
+  bannerText: Hi my new friend!
+
 tags: [NapCatQQ, Docker, Bot]
-head:
-  - - meta
-    - name: description
-      content: Docker安装NapCat
-  - - meta
-    - name: keywords
-      content: Docker安装NapCat
 ---
 
-Docker安装NapCat
-
----
 # 使用Docker安装NapCat
 ## 一、安装Docker
 ### 使用[官方脚本](https://get.docker.com)安装
