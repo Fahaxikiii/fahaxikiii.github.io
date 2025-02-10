@@ -100,7 +100,7 @@ export default defineConfig({
     cover: {
       default: "/images/logo/def_post_cover.png",
     },
-    links: "https://blog.spoli.cn/links.json",
+    //links: "https://blog.spoli.cn/links.json",
     rightside: {
       readmode: true,
       aside: false,
