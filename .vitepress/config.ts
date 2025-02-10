@@ -15,10 +15,10 @@ export default defineConfig({
 				desc: 'VitePress is a Static Site Generator (SSG) designed for building fast, content-centric websites',
 			},
 			{
-				name: '白云苍狗',
-				url: 'https://www.imalun.com/',
-				image: 'https://www.imalun.com/images/avatar.jpg',
-				desc: '醒，亦在人间；梦，亦在人间',
+				name: '万里',
+				url: 'https://blog.spoli.com/',
+				image: 'https://blog.spoli.com/favicon.jpg',
+				desc: '无人识我来时路，就像那孤山起了雾',
 			},
 		],
 		rightside: {
@@ -29,9 +29,9 @@ export default defineConfig({
 			level: [2, 6],
 		},
 		favicon: {
-			logo: '/favicon.svg',
-			icon16: '/favicon.svg',
-			icon32: '/favicon.svg',
+			logo: '/favicon.jpg',
+			icon16: '/favicon.jpg',
+			icon32: '/favicon.jpg',
 			visibilitychange: true,
 		},
 	},
