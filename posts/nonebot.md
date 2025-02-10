@@ -2,7 +2,7 @@
 title: 安装运行NoneBot
 date: 2024-11-12 20:00:00
 singleColumn: true
-cover: /nonebot_1.png
+cover: https://t.alcy.cc/moe
 banner:
   type: img
   bgurl: https://t.alcy.cc/moez

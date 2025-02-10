@@ -2,7 +2,7 @@
 title: Docker安装NapCat
 date: 2024-11-11 20:00:00
 singleColumn: true
-cover: /napcat_1.png
+cover: https://t.alcy.cc/moe
 banner:
   type: img
   bgurl: https://t.alcy.cc/moez
