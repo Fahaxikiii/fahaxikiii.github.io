@@ -84,9 +84,9 @@ export default defineConfig({
       ],
     },
     footer: {
-    //   powered: {
-    //     enable: false,
-    //   },
+       powered: {
+         enable: false,
+       },
     //   beian: {
     //     enable: false,
     //   },
@@ -100,7 +100,7 @@ export default defineConfig({
     cover: {
       default: "/images/logo/def_post_cover.png",
     },
-    links: "https://blog.spoli.cn/api/links",
+    //links: "https://blog.spoli.cn/api/links",
     rightside: {
       readmode: true,
       aside: false,
