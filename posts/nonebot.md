@@ -1,19 +1,16 @@
 ---
 title: 安装运行NoneBot
-date: 2024-11-12
+date: 2024-11-12 20:00:00
+singleColumn: true
+cover: /nonebot_1.png
+banner:
+  type: img
+  bgurl: https://t.alcy.cc/moez
+  bannerText: 
+
 tags: [NapCatQQ, NoneBot, OneBotV11]
-head:
-  - - meta
-    - name: description
-      content: 安装运行NoneBot
-  - - meta
-    - name: keywords
-      content: 安装运行NoneBot
 ---
 
-使用nb创建nonebot并与NapCat建立通信
-
----
 [NoneBot官网](https://nonebot.dev/)
 本文主要针对于Debian系系统，如Debian，Ubuntu。
 # 安装基础依赖

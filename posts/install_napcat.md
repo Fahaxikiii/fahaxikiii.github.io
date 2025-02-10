@@ -1,12 +1,12 @@
 ---
 title: Docker安装NapCat
-date: 2024-11-11 15:08:29
+date: 2024-11-11 20:00:00
 singleColumn: true
-cover: https://www.logosc.cn/uploads/resources/2018/11/29/1543459457_thumb.jpg
+cover: /napcat_1.png
 banner:
   type: img
-  bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg
-  bannerText: Hi my new friend!
+  bgurl: https://t.alcy.cc/moez
+  bannerText: 
 
 tags: [NapCatQQ, Docker, Bot]
 ---

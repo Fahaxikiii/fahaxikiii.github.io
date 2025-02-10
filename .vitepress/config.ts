@@ -20,16 +20,24 @@ export default defineConfig({
     },
   },
   themeConfig: {
+	banner: { 
+		type: 'img', 
+		//bgurl: 'https://api.iw233.cn/api.php?sort=pc', 
+		bgurl: 'https://www.dmoe.cc/random.php', 
+		bannerTitle: '', 
+		bannerText: '', 
+		// ...  
+	},
     author: "万里",
     user: {
-      name: "万里",
+      name: "十二",
       firstName: "",
       lastName: "",
       //email: "920113370213@njust.edu.cn",
       domain: "https://blog.spoli.cn/",
-      avatar: "/favicon.jpg",
+      avatar: "https://blog.spoli.cn/favicon.jpg",
       describe: "无人识我来时路，就像那孤山起了雾",
-      //ruleText: "暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，独立域名并且部署HTTPS。",
+      ruleText: "",
     },
     // favicon: {
     //   logo: "/favicon.jpg",
