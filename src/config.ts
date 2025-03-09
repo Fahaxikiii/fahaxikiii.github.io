@@ -45,6 +45,7 @@ export const navBarConfig: NavBarConfig = {
       name: "友联",
       url: "/links/",
     },
+    LinkPreset.About,
   ],
 }
 
