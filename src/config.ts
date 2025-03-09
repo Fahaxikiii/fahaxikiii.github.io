@@ -11,13 +11,13 @@ export const siteConfig: SiteConfig = {
   subtitle: 'Blog',
   lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
-    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    hue: 320,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
     enable: true,
     src: 'https://www.dmoe.cc/random.php',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+    position: 'top',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: false,         // Display the credit text of the banner image
       text: '',              // Credit text to be displayed
@@ -29,11 +29,11 @@ export const siteConfig: SiteConfig = {
     depth: 2                // Maximum heading depth to show in the table, from 1 to 3
   },
   favicon: [    // Leave this array empty to use the default favicon
-    // {
-    //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-    //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-    //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-    // }
+     {
+       src: '/favicon.jpg',    // Path of the favicon, relative to the /public directory
+       //theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+       //sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+     }
   ]
 }
 
@@ -42,7 +42,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     {
-      name: "友联",
+      name: "友链",
       url: "/links/",
     },
     LinkPreset.About,
@@ -51,25 +51,35 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avater.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  name: '万 里',
+  bio: '无人识我来时路，就像那孤山起了雾。',
   links: [
-    // {
-    //   name: 'Twitter',
-    //   icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-    //                                     // You will need to install the corresponding icon set if it's not already included
-    //                                     // `pnpm add @iconify-json/<icon-set-name>`
-    //   url: 'https://twitter.com',
-    // },
+    {
+      name: 'QQ',
+      icon: 'fa6-brands:qq',       // Visit https://icones.js.org/ for icon codes
+                                        // You will need to install the corresponding icon set if it's not already included
+                                        // `pnpm add @iconify-json/<icon-set-name>`
+      url: 'https://qm.qq.com/q/css1hI3L44',
+    },
+    {
+      name: 'Bilibili',
+      icon: 'fa6-brands:bilibili',
+      url: 'https://space.bilibili.com/362856603/',
+    },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/Fahaxikiii',
+      url: 'https://github.com/Fahaxikiii/',
     },
     {
       name: 'Steam',
       icon: 'fa6-brands:steam',
       url: 'https://steamcommunity.com/profiles/76561199280587031/',
+    },
+    {
+      name: 'Telegram',
+      icon: 'fa6-brands:telegram',
+      url: 'https://t.me/wl1212/',
     },
   ],
 }

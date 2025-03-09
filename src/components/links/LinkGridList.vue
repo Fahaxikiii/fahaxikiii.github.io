@@ -17,10 +17,16 @@ import LinkCard from "./LinkCard.vue";
 
 const links: { title: string; link: string; desc: string; img: string }[] = [
   {
-    link: "https://spoli.cn/",
-    title: "十二",
-    img: "https://spoli.cn/assets/images/avatar.jpg",
-    desc: "万里 の Blog",
+    link: "https://nanaeo.cn/",
+    title: "Mlikiowa Home Village",
+    img: "https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100",
+    desc: "A little Village With Mlikiowa",
+  },
+  {
+    link: "https://blog.a7bz.cn/",
+    title: "荒芜",
+    img: "https://blog.a7bz.cn/logo.png",
+    desc: "记录分享一些笔记",
   },
 ];
 
