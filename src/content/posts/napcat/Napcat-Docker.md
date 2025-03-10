@@ -16,7 +16,9 @@ draft: false
 bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 ```
 
+:::caution
 一键安装(可能会出现网络错误)，建议使用上面的脚本自行选择
+:::
 
 ```bash
 bash <(curl -sSL https://linuxmirrors.cn/docker.sh) \
@@ -61,8 +63,8 @@ services:
             - /app/napcat/config:/app/napcat/logs
 ```
 
-其中
-
+:::note
+其中<br>
 `hub.161122.xyz`是我搭建的镜像代理地址<br>你可以改成你自己的或者直接使用原版`mlikiowa/napcat-docker:latest`<br>
 `container_name`随意取<br>
 `NAPCAT_UID`和`NAPCAT_GID` 一般来说都是`0`，可通过`id -u`和`id -g`获取<br>
@@ -74,6 +76,7 @@ ip addr show $(ip route | awk '/default/ {print $5}') | grep link/ether | awk '{
 
 `volumes`映射`:`前面的文件夹可以自己选择，比如可以改成<br>
 `- /opt/napcat/QQ:/app/.config/QQ:/app/.config/QQ`
+:::
 
 ### 启动
 
@@ -83,9 +86,11 @@ ip addr show $(ip route | awk '/default/ {print $5}') | grep link/ether | awk '{
 docker-compose up -d
 ```
 
+:::tip
 初始密钥为`napcat`<br>
 通过`http://ip:6099/webui?token=napcat`直接访问`WebUi`进行配置<br>
 第一次登录会提示你修改密钥,记得修改哦~
+:::
 
 ### 关闭
 
