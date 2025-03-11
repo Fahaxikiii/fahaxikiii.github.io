@@ -56,7 +56,7 @@ fi
 #### 国内
 
 ```bash
-bash <(curl -sSL https://spoli.cn/public/napcat-1panel.sh)
+bash <(curl -sSL https://spoli.cn/napcat-1panel.sh)
 ```
 
 ```bash
