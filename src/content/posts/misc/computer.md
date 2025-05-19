@@ -14,7 +14,7 @@ draft: false
 | CPU   | AMD 锐龙 7 9700X                | 京东       |板U套餐     |
 | 主板    | 技嘉B650M AORUS ELITE AX ICE 冰雕 | 京东       | 2835.99 |
 | 内存    | 玖合玲珑无灯 D5 6000 海A C28 16GB *2 | 京东       | 695.5   |
-| 显卡    | 盈通 RX9070XT-16G D6 樱瞳水着 Atlantis OC            | 京东       | 5099    |
+| 显卡    | 盈通 RX9070XT-16G D6 樱瞳水着 Atlantis OC            | 抖音       | 5099    |
 | 散热    | 瓦尔基里 VK A360 ARGB白色           | 京东       | 359     |
 | 硬盘    | 致态TiPlus7100 2T（系统盘）          | 拼多多      | 848     |
 | 硬盘    | 幻隐HV2000 Pro 1TB              | 拼多多      | 245.8   |
